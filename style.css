@@ -1,0 +1,325 @@
+body {
+    font-family: "Poppins", sans-serif;
+}
+
+.figure-wrapper {
+    display: inline-block;
+}
+
+.logo-wrapper {
+    width: 120px;
+    height: 60px;
+    margin: 15px;
+    margin-left: 30px;
+}
+
+.nav-wrapper li {
+    display: inline-block;
+    margin: 20px;
+    margin-top: 20px;
+    font-size: 16px;
+    font-weight: 550;
+}
+
+.nav-wrapper {
+    display: inline-block;
+    vertical-align: top;
+    position: absolute;
+    right: 200px;
+}
+
+.home {
+    background-color: #f0390f;
+    border-radius: 25px;
+    width: 100px;
+    height: 45px;
+    text-align: center;
+    color: white;
+    padding-top: 11px;
+}
+
+.section1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.imageskat {
+    width: 760px;
+    height: 640px;
+}
+
+.mainhead {
+    font-size: 61px;
+    font-weight: 800;
+    padding-top: 50px;
+}
+
+.onepart {
+    padding: 60px;
+    padding-left: 140px;
+}
+
+.heading {
+    font-size: 40px;
+    font-weight: 800;
+    color: rgb(37, 37, 37);
+    text-align: center;
+    margin-top: 75px;
+}
+
+.para1 {
+    text-align: center;
+    font-size: 18px;
+    padding-top: 20px;
+}
+
+.set-image {
+    width: 65px;
+    height: 60px;
+    margin: auto;
+    margin-top: 35px;
+    margin-bottom: 35px;
+}
+
+.box-type {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+.onebox {
+    width: 25%;
+    height: 400px;
+    background-color: #f0390f;
+    border: none;
+    border-radius: 10px;
+    margin: 25px;
+}
+
+.twobox {
+    width: 25%;
+    height: 400px;
+    background-color: #0a0de7;
+    border: none;
+    border-radius: 10px;
+    margin: 25px;
+}
+
+.onebox p {
+    color: white;
+    line-height: 27px;
+    width: 70%;
+    font-size: 16px;
+    margin: auto;
+}
+
+.twobox p {
+    color: white;
+    line-height: 27px;
+    width: 70%;
+    font-size: 16px;
+    margin: auto;
+}
+
+.onebox h1 {
+    margin: 30px;
+    color: white;
+    font-weight: bold;
+}
+
+.twobox h1 {
+    margin: 30px;
+    color: white;
+    font-weight: bold;
+}
+
+.extend {
+    display: flex;
+    justify-content: space-evenly;
+    text-transform: uppercase;
+    font-size: 15px;
+}
+
+.three3 {
+    flex: 100px;
+}
+
+.two2 {
+    flex: 45px;
+}
+
+.one1 {
+    flex: 166px;
+    padding-left: 125px;
+}
+
+.aboutimage {
+    width: 90%;
+    height: 550px;
+}
+
+.aboutus {
+    background-image: url(images/about_bg.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 600px;
+    display: flex;
+    margin-top: 55px;
+}
+
+.about-content {
+    width: 50%;
+    align-content: center;
+    padding-left: 186px;
+}
+
+.about-image1 {
+    width: 50%;
+    margin-top: 50px;
+}
+
+.about-head {
+    font-size: 35px;
+    font-weight: bold;
+    color: white;
+    line-height: 45px;
+    padding-top: 85px;
+}
+
+.about-para {
+    width: 91%;
+    color: white;
+    font-size: 15px;
+    padding-top: 25px;
+}
+
+#aside {
+    background-color: #0a0de7;
+    display: none;
+    width: 20%;
+    height: 300px;
+    position: absolute;
+    right: 8px;
+    top: 8px;
+    z-index: 2;
+    border-radius: 7px;
+    text-align: center;
+}
+
+.cancel-image {
+    width: 25px;
+    height: 20px;
+    position: absolute;
+    right: 2px;
+    top: 3px;
+}
+
+.mobile-aside {
+    list-style: none;
+    padding: 40px;
+    color: white;
+}
+
+.mobile-aside li {
+    padding: 10px;
+    text-transform: uppercase;
+}
+
+.dot {
+    display: none;
+    width: 50px;
+    height: 50px;
+}
+
+@media (min-width: 375px) and (max-width: 768px) {
+    .nav-wrapper {
+        display: none;
+    }
+
+    .section1 {
+        display: block;
+    }
+
+    .onepart {
+        padding: 0;
+        text-align: center;
+    }
+
+    .dot{
+        display: block;
+        position: absolute;
+        right: 5px;
+        top: 5px;
+    }
+
+    .topicon {
+        margin: auto;
+    }
+
+    .imageskat {
+        width: 80%;
+        height: 500px;
+        margin: auto;
+    }
+
+    #aside {
+        width: 35%;
+        height: 230px;
+    }
+
+    .mobile-aside {
+        padding: 5px;
+    }
+    
+    .heading {
+        font-size: 25px;
+        margin-top: 45px;
+    }
+
+    .para1 {
+        font-size: 14px;
+    }
+
+    .box-type {
+        display: block;
+        margin-top: 15px;
+    }
+
+    .onebox {
+        width: 75%;
+        margin: auto;
+    }
+
+    .twobox {
+        width: 75%;
+        margin: auto;
+    }
+
+    .extend {
+        display: none;
+    }
+
+    .aboutus {
+        height: 800px;
+        display: block;
+        margin-top: 55px;
+    }
+
+    .about-content {
+        width: 100%;
+        padding: 25px;
+        text-align: left;
+    }
+
+    .about-image1 {
+        width: 100%;
+        margin-top: 30px;
+    }
+
+    .aboutimage {
+        width: 90%;
+        height: 350px;
+        margin: auto;
+    }
+}
