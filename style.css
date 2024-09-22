@@ -84,26 +84,27 @@ body {
 .box-type {
     display: flex;
     text-align: center;
-    justify-content: center;
-    margin-top: 15px;
+    margin-top: 35px;
 }
 
 .onebox {
-    width: 25%;
+    width: 70%;
     height: 400px;
     background-color: #f0390f;
     border: none;
     border-radius: 10px;
-    margin: 25px;
+    margin: auto;
+    margin-bottom: 25px;
 }
 
 .twobox {
-    width: 25%;
+    width: 70%;
     height: 400px;
     background-color: #0a0de7;
     border: none;
     border-radius: 10px;
-    margin: 25px;
+    margin: auto;
+    margin-bottom: 25px;
 }
 
 .onebox p {
@@ -134,25 +135,13 @@ body {
     font-weight: bold;
 }
 
-.extend {
-    display: flex;
-    justify-content: space-evenly;
-    text-transform: uppercase;
-    font-size: 15px;
-}
-
-.three3 {
-    flex: 1;
-    padding-right: 55px;
-}
-
-.two2 {
-    flex: 1;
-}
-
 .one1 {
-    padding-left: 120px;
-    flex: 1;
+    text-align: left;
+    padding-left: 75px;
+}
+
+.main-content {
+    padding: 1px;
 }
 
 .aboutimage {
@@ -172,7 +161,7 @@ body {
 .about-content {
     width: 50%;
     align-content: center;
-    padding-left: 186px;
+    padding-left: 160px;
 }
 
 .about-image1 {
@@ -189,7 +178,6 @@ body {
 }
 
 .about-para {
-    width: 91%;
     color: white;
     font-size: 15px;
     padding-top: 25px;
@@ -297,12 +285,13 @@ body {
         margin: auto;
     }
 
-    .extend {
-        display: none;
+    .one1 {
+        padding-left: 60px;
+        margin: 12px 0;
     }
 
     .aboutus {
-        height: 850px;
+        height: 830px;
         display: block;
         margin-top: 55px;
     }
@@ -310,7 +299,8 @@ body {
     .about-content {
         width: 100%;
         padding: 25px;
-        text-align: left;
+        text-align: center;
+        width: 100%;
     }
 
     .about-image1 {
