@@ -110,7 +110,7 @@ body {
     color: white;
     line-height: 27px;
     width: 70%;
-    font-size: 16px;
+    font-size: 15px;
     margin: auto;
 }
 
@@ -118,7 +118,7 @@ body {
     color: white;
     line-height: 27px;
     width: 70%;
-    font-size: 16px;
+    font-size: 15px;
     margin: auto;
 }
 
@@ -142,16 +142,17 @@ body {
 }
 
 .three3 {
-    flex: 100px;
+    flex: 1;
+    padding-right: 55px;
 }
 
 .two2 {
-    flex: 45px;
+    flex: 1;
 }
 
 .one1 {
-    flex: 166px;
-    padding-left: 125px;
+    padding-left: 120px;
+    flex: 1;
 }
 
 .aboutimage {
@@ -301,7 +302,7 @@ body {
     }
 
     .aboutus {
-        height: 800px;
+        height: 850px;
         display: block;
         margin-top: 55px;
     }
